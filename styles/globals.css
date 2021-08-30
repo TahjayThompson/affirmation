@@ -4,10 +4,12 @@ body {
   margin: 0;
   font-family:'Rubik';
   text-rendering: optimizespeed;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color:var(--text-dark);
   background-color:var(--bkg) ;
+  overflow-x: hidden;
+  
   
 
 

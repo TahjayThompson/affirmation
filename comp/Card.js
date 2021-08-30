@@ -4,9 +4,9 @@ import React from 'react';
 const Card = () => {
     return (
         <div className={styles.card}>
-            <h2> I am the architect of my life; I build its foundation and choose its contents.</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt repellat, molestiae alias et .</p>
         </div>
     )
 }
 
-export default Card
+export default Card;

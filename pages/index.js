@@ -14,21 +14,34 @@ export default function Home() {
 
       <main className={styles.main}>
         <section className={styles.section1}>
-          <h1 className={styles.maintitle}>
-            Get Daily Affirmations, <br /> Get Inspired!
-          </h1>
-          <Image
-          src='/assets/positive-vibes.svg'
+          <main className={styles.push}>
+            <h1 className={styles.maintitle}>
+              Get Daily Affirmations, <br /> Get Inspired!
+            </h1>
+            <Image
+            src='/assets/rain.svg'
+            layout='fixed'
+            priority
+            width={100}
+            height={90}
+            />
+          </main>
+             <Image
+          src='/assets/down-arrow.svg'
           layout='fixed'
           priority
-          width={100}
-          height={90}
+          width={60}
+          height={30}
           />
         </section>
 
         <section className={styles.section2}>
+          <h3>{"Today's"} Affirmation</h3>
           <Card/>
         </section>
+        {/* <section className={styles.section3}>
+          
+        </section> */}
       </main>
   
     </div>
