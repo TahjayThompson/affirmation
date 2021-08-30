@@ -2,9 +2,32 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:'Rubik';
+  text-rendering: optimizespeed;
+  font-weight: 500;
+  font-size: 16px;
+  color:var(--text-dark);
+  background-color:var(--bkg) ;
+  
+
+
 }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/font/Rubik/Rubik-Medium.ttf');
+  font-style:medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('/font/Rubik/Rubik-Regular.ttf');
+  font-style:regular;
+  font-weight: 400;
+  font-display: swap;
+}
+
 
 a {
   color: inherit;
@@ -13,4 +36,17 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+:root{
+  --bkg:#E5E5E5;
+  --text-dark:#2C3344;
+  --c1:#d0d2d5;
+  --c2:#b9bbc1;
+  --c3:#a1a4ac;
+  --c4:#8a8e97;
 }
