@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:'Rubik';
+  font-family: 'Inter', sans-serif;
   text-rendering: optimizespeed;
   font-weight: 400;
   font-size: 16px;
@@ -15,20 +15,7 @@ body {
 
 }
 
-@font-face {
-  font-family: 'Rubik';
-  src: url('/font/Rubik/Rubik-Medium.ttf');
-  font-style:medium;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Rubik';
-  src: url('/font/Rubik/Rubik-Regular.ttf');
-  font-style:regular;
-  font-weight: 400;
-  font-display: swap;
-}
+
 
 
 a {
@@ -43,10 +30,15 @@ a {
   
 }
 
+h1,h2,h3{
+  font-weight: 900;
+}
 
 :root{
-  --bkg:#E5E5E5;
-  --text-dark:#2C3344;
+  --bkg:#fff;
+  --text-dark:#472b29;
+  --primary:#9f8066;
+  --yellow:#f1bc19;
   --c1:#d0d2d5;
   --c2:#b9bbc1;
   --c3:#a1a4ac;

@@ -1,20 +1,14 @@
-.section1{
 
-  justify-content: space-evenly;
-  text-align: center;
-  font-size: 24px;
-  border-bottom: 1px solid var(--c2);
-  font-weight: 500;
-}
-.section1,
-.section2{
-  min-height: 100vh;
-  height: 100vh;
+.section{
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   place-content: center;
+  justify-content: center;
   padding:1em;
+  margin-top:6em;
+  text-align: center;
 
 
 }
@@ -26,6 +20,23 @@
   justify-self: center;
 }
 
-.section2{
- 
+
+/* .affirm{
+  
+} */
+
+.container{
+  border:2px solid var(--text-dark);
+  border-radius: 5px;
+  min-width:50%;
+  height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-content: center;
+  background-color: var(--primary);
+  color:var(--text-dark);
+  font-size: 20px;
+  padding:1em;
+
 }
