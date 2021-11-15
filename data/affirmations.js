@@ -46,6 +46,21 @@ const affirmations = [
     "Starting is the most difficult step - but you can do it",
     "Don't forget to enjoy the journey",
     "It's not a mistake, it's a learning opportunity",
+    "I am inspired by things happening all around me",
+    "I am grateful for the people I have in my life",
+    "I grow and improve every day.",
+    "I treat myself kindly and with compassion.",
+    "I am able to find the silver linings in difficult situations.",
+    "I always try to see the bright side of things.",
+    "I am grateful for the things I have in life.",
+    "I appreciate the opportunities I've been given.",
+    "I am kind and help inspire others to be kind.",
+    "My life is full of potential.",
+    "I give myself permission to be myself.",
+    "I give myself permission to take time for myself.",
+    "I have the power to change.",
+    ​"I forgive those who have hurt me.",
+    "I have the ability to recover from difficulties.",
   ];
   
   module.exports = affirmations;
