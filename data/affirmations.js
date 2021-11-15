@@ -59,7 +59,6 @@ const affirmations = [
     "I give myself permission to be myself",
     "I give myself permission to take time for myself",
     "I have the power to change",
-    ​"I forgive those who have hurt me",
     "I have the ability to recover from difficulties",
   ];
   
