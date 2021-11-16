@@ -39,7 +39,7 @@
   color:#000;
   font-size: 20px;
   padding:1em;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 
 }
 
@@ -47,7 +47,36 @@
 .info{
   max-width: 43em;
   padding: 1em;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
+.buttons{
+  margin-bottom: 6.5em;
+}
+.normal{
+  padding:.3em;
+  margin:0.5em;
+  width:10em;
+  border:none;
+  border: 2px solid var(--text-dark);
+  border-radius: 5px;
 
+}
+
+.copied{
+  background-color: #c7ede6;
+  padding:.3em;
+  margin:0.5em;
+  width:10em;
+  border:none;
+  border: 2px solid var(--text-dark);
+  text-align: center;
+  border-radius: 5px;
+  
+
+
+}
+
+.h1{
+  font-size: 48px;
+}
