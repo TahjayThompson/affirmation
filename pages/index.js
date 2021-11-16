@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/index.module.css';
+import React, { useState, useEffect } from 'react';
 const affirmations = require('../data/affirmations');
 
 
 
 export default function Home() {
-    console.log()
-    return ( 
+    return(
         <>
         <Head>
         <title>Affirmation City</title>
@@ -40,6 +40,8 @@ export default function Home() {
             <img src="https://img.icons8.com/clouds/100/000000/tribal-symbols.png"/>
 
          </div>
+         <button onClick={() =>window.location.reload() }> NEXT ONE</button>
+
 
         <div className={styles.container}> 
             <div className={styles.affirm}>
@@ -47,14 +49,14 @@ export default function Home() {
                 affirmations[Math.floor(Math.random() * affirmations.length)]
                 } 
             </div>
+
         </div>
+        
 
         <div className={styles.info}>
-        <h2>        What Are Daily Affirmations?    
-</h2>
+        <h2>        What Are Daily Affirmations?    </h2>
 
-        <p>Image result for What Are Daily Affirmations?
-Simply put, daily affirmations are clear, positive statements that describe your goals as already achieved. </p>
+        <p>Simply put, daily affirmations are clear, positive statements that describe your goals as already achieved. </p>
         </div>
 
         <div className={styles.info}>
@@ -69,5 +71,6 @@ Simply put, daily affirmations are clear, positive statements that describe your
         </div>
 
         </>
-    )
+
+    )   
 }
