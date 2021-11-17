@@ -13,8 +13,9 @@ const Footer = () => {
             <Link href='https://www.tahjaythompson.com/blog' passHref>
                 <a>Blog</a>
             </Link>
-            </div>
             <div >© 2021 · Affirmation City · All rights reserved </div>
+
+            </div>
 
       </footer>
 
