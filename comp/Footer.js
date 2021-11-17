@@ -5,8 +5,7 @@ import styles from './styles/footer.module.css';
 const Footer = () => {
     return (
         <>
-        <footer >
-           <div >
+        <footer className={styles.Footer}>
            <Link href='/privacy-policy' passHref>
                 <a>Privacy Policy</a>
             </Link>
@@ -14,9 +13,6 @@ const Footer = () => {
                 <a>Blog</a>
             </Link>
             <div >© 2021 · Affirmation City · All rights reserved </div>
-
-            </div>
-
       </footer>
 
       </>

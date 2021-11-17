@@ -26,17 +26,17 @@
 } */
 
 .container{
-  border:2px solid var(--text-dark);
+  /* border:1px solid var(--text-dark); */
   border-radius: 5px;
-  min-width:50%;
-  height: 8em;
+  max-width: 650px; 
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   place-content: center;
   flex-direction: column;
-  background-color: var(--primary);
-  color:#000;
+  background-color: #eff3f6;
+  color:#374957;
   font-size: 20px;
   padding:1em;
   margin-bottom: 2em;
@@ -58,20 +58,21 @@
   margin:0.5em;
   width:10em;
   border:none;
-  border: 2px solid var(--text-dark);
+  border: 1px solid #374957;
   border-radius: 5px;
 
 }
 
 .copied{
-  background-color: #c7ede6;
+  background-color: #4ad295;
   padding:.3em;
   margin:0.5em;
   width:10em;
   border:none;
-  border: 2px solid var(--text-dark);
+  border: 1px solid #374957;
   text-align: center;
   border-radius: 5px;
+  color:#fff;
   
 
 
