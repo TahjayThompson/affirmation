@@ -111,6 +111,35 @@ Simply put, daily affirmations are clear, positive statements that describe your
             <h2>What is a positive affirmation?</h2>
         <p>Affirmations are positive statements that can help you to challenge and overcome self-sabotaging and negative thoughts. When you repeat them often, and believe in them, you can start to make positive changes. </p>
         </div>
+        <div className={styles.info}>
+            <h2>Get affirmations on:</h2>
+            <ul>
+              affirmations self love,
+              affirmations for self love,
+              affirmation quotes,
+              affirmations for women,
+              affirmations i am,
+              affirmations for love,
+              affirmations for kids,
+              affirmations for money,
+              affirmations health,
+              affirmations for health,
+              affirmations for healing,
+              affirmations love,
+              affirmations healing,
+              affirmations for anxiety,
+             affirmations for success,
+              affirmations to lose weight,
+              affirmations for weight loss,
+              affirmations for confidence,
+              affirmations success,
+              affirmations of gratitude,
+              affirmations confidence,
+              affirmations of the day
+            </ul>
+        </div>
+
+
           <Footer/>
         </>
 
