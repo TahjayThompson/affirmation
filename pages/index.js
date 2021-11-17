@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/index.module.css';
 import React, { useState, useEffect } from 'react';
+import Footer from '../comp/Footer';
+
 const affirmations = require('../data/affirmations');
 
 
@@ -109,7 +111,7 @@ Simply put, daily affirmations are clear, positive statements that describe your
             <h2>What is a positive affirmation?</h2>
         <p>Affirmations are positive statements that can help you to challenge and overcome self-sabotaging and negative thoughts. When you repeat them often, and believe in them, you can start to make positive changes. </p>
         </div>
-
+          <Footer/>
         </>
 
     )   
