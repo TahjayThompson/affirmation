@@ -1,16 +1,18 @@
 .Footer{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: row;
     margin:0.5em 0;
     flex-wrap: wrap;
     position: absolute;
     bottom: 0;
+    text-align: left;
+    padding:1em;
 }
 
 .Footer a{
-    padding:0 0.4em;
+    padding:0 0.2em;
     font-weight: 900;
 
 }
