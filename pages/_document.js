@@ -8,6 +8,36 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+
+        <title>Affirmation City</title>
+          <meta name="Description" content="daily affirmations are clear, positive statements that describe your goals as already achieved. Get Inspired now! " />
+          <meta property="og:title" content="Affirmation City"  />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://affirmation.tahjaythompson.com/" />
+          <meta property="og:description" content="daily affirmations are clear, positive statements that describe your goals as already achieved. Get Inspired now!" />
+          <meta property="og:determiner" content="the" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:locale:alternate" content="fr_FR" />
+          <meta property="og:locale:alternate" content="es_ES" />
+          <meta property="og:locale:alternate" content="es_GB" />
+          <meta property="og:site_name" content="Affirmation City" />
+          <meta property="article:publisher" content="https://affirmation.tahjaythompson.com/" />
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          <meta property="author" content="Tahjay Thompson"/>
+          <meta property="article:author" content="https://www.linkedin.com/in/tahjay-thompson"/>
+          <link rel="canonical" href="https://affirmation.tahjaythompson.com/"/>
+          <meta property="og:image:height" content="1920"/>
+          <meta property="og:image:width" content="1080"/>
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:title" content="Affirmation City"/>
+          <meta name="twitter:description"  content="daily affirmations are clear, positive statements that describe your goals as already achieved. Get Inspired now!"/>
+          <meta name="twitter:site" content="https://affirmation.tahjaythompson.com/"/>
+
+
+
+
+
+
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
         <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"/>

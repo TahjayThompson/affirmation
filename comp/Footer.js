@@ -12,6 +12,9 @@ const Footer = () => {
             <Link href='https://www.tahjaythompson.com/blog' passHref>
                 <a>Blog</a>
             </Link>
+            <Link href='/about' passHref>
+                <a>About</a>
+            </Link>
             <div >© 2021 · Affirmation City · All rights reserved </div>
       </footer>
 
